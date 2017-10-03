@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BF4A3021F8435D80084212E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF4A3011F8435D80084212E /* AppDelegate.swift */; };
+		1BF4A3041F8435D80084212E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF4A3031F8435D80084212E /* ViewController.swift */; };
+		1BF4A3061F8435D80084212E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BF4A3051F8435D80084212E /* Assets.xcassets */; };
+		1BF4A3091F8435D80084212E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BF4A3071F8435D80084212E /* Main.storyboard */; };
+		1BF4A3151F8435D80084212E /* BatteryLevelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF4A3141F8435D80084212E /* BatteryLevelTests.swift */; };
+		1BF4A3201F8435D80084212E /* BatteryLevelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF4A31F1F8435D80084212E /* BatteryLevelUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1BF4A3111F8435D80084212E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BF4A2F61F8435D80084212E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BF4A2FD1F8435D80084212E;
+			remoteInfo = BatteryLevel;
+		};
+		1BF4A31C1F8435D80084212E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BF4A2F61F8435D80084212E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BF4A2FD1F8435D80084212E;
+			remoteInfo = BatteryLevel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BF4A2FE1F8435D80084212E /* BatteryLevel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BatteryLevel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BF4A3011F8435D80084212E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1BF4A3031F8435D80084212E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1BF4A3051F8435D80084212E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1BF4A3081F8435D80084212E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1BF4A30A1F8435D80084212E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BF4A30B1F8435D80084212E /* BatteryLevel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BatteryLevel.entitlements; sourceTree = "<group>"; };
+		1BF4A3101F8435D80084212E /* BatteryLevelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BatteryLevelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BF4A3141F8435D80084212E /* BatteryLevelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryLevelTests.swift; sourceTree = "<group>"; };
+		1BF4A3161F8435D80084212E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BF4A31B1F8435D80084212E /* BatteryLevelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BatteryLevelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BF4A31F1F8435D80084212E /* BatteryLevelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryLevelUITests.swift; sourceTree = "<group>"; };
+		1BF4A3211F8435D80084212E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BF4A2FB1F8435D80084212E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BF4A30D1F8435D80084212E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BF4A3181F8435D80084212E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BF4A2F51F8435D80084212E = {
+			isa = PBXGroup;
+			children = (
+				1BF4A3001F8435D80084212E /* BatteryLevel */,
+				1BF4A3131F8435D80084212E /* BatteryLevelTests */,
+				1BF4A31E1F8435D80084212E /* BatteryLevelUITests */,
+				1BF4A2FF1F8435D80084212E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1BF4A2FF1F8435D80084212E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BF4A2FE1F8435D80084212E /* BatteryLevel.app */,
+				1BF4A3101F8435D80084212E /* BatteryLevelTests.xctest */,
+				1BF4A31B1F8435D80084212E /* BatteryLevelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BF4A3001F8435D80084212E /* BatteryLevel */ = {
+			isa = PBXGroup;
+			children = (
+				1BF4A3011F8435D80084212E /* AppDelegate.swift */,
+				1BF4A3031F8435D80084212E /* ViewController.swift */,
+				1BF4A3051F8435D80084212E /* Assets.xcassets */,
+				1BF4A3071F8435D80084212E /* Main.storyboard */,
+				1BF4A30A1F8435D80084212E /* Info.plist */,
+				1BF4A30B1F8435D80084212E /* BatteryLevel.entitlements */,
+			);
+			path = BatteryLevel;
+			sourceTree = "<group>";
+		};
+		1BF4A3131F8435D80084212E /* BatteryLevelTests */ = {
+			isa = PBXGroup;
+			children = (
+				1BF4A3141F8435D80084212E /* BatteryLevelTests.swift */,
+				1BF4A3161F8435D80084212E /* Info.plist */,
+			);
+			path = BatteryLevelTests;
+			sourceTree = "<group>";
+		};
+		1BF4A31E1F8435D80084212E /* BatteryLevelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1BF4A31F1F8435D80084212E /* BatteryLevelUITests.swift */,
+				1BF4A3211F8435D80084212E /* Info.plist */,
+			);
+			path = BatteryLevelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BF4A2FD1F8435D80084212E /* BatteryLevel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BF4A3241F8435D80084212E /* Build configuration list for PBXNativeTarget "BatteryLevel" */;
+			buildPhases = (
+				1BF4A2FA1F8435D80084212E /* Sources */,
+				1BF4A2FB1F8435D80084212E /* Frameworks */,
+				1BF4A2FC1F8435D80084212E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BatteryLevel;
+			productName = BatteryLevel;
+			productReference = 1BF4A2FE1F8435D80084212E /* BatteryLevel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1BF4A30F1F8435D80084212E /* BatteryLevelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BF4A3271F8435D80084212E /* Build configuration list for PBXNativeTarget "BatteryLevelTests" */;
+			buildPhases = (
+				1BF4A30C1F8435D80084212E /* Sources */,
+				1BF4A30D1F8435D80084212E /* Frameworks */,
+				1BF4A30E1F8435D80084212E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BF4A3121F8435D80084212E /* PBXTargetDependency */,
+			);
+			name = BatteryLevelTests;
+			productName = BatteryLevelTests;
+			productReference = 1BF4A3101F8435D80084212E /* BatteryLevelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1BF4A31A1F8435D80084212E /* BatteryLevelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BF4A32A1F8435D80084212E /* Build configuration list for PBXNativeTarget "BatteryLevelUITests" */;
+			buildPhases = (
+				1BF4A3171F8435D80084212E /* Sources */,
+				1BF4A3181F8435D80084212E /* Frameworks */,
+				1BF4A3191F8435D80084212E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BF4A31D1F8435D80084212E /* PBXTargetDependency */,
+			);
+			name = BatteryLevelUITests;
+			productName = BatteryLevelUITests;
+			productReference = 1BF4A31B1F8435D80084212E /* BatteryLevelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BF4A2F61F8435D80084212E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Maxime Moison";
+				TargetAttributes = {
+					1BF4A2FD1F8435D80084212E = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					1BF4A30F1F8435D80084212E = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1BF4A2FD1F8435D80084212E;
+					};
+					1BF4A31A1F8435D80084212E = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1BF4A2FD1F8435D80084212E;
+					};
+				};
+			};
+			buildConfigurationList = 1BF4A2F91F8435D80084212E /* Build configuration list for PBXProject "BatteryLevel" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1BF4A2F51F8435D80084212E;
+			productRefGroup = 1BF4A2FF1F8435D80084212E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BF4A2FD1F8435D80084212E /* BatteryLevel */,
+				1BF4A30F1F8435D80084212E /* BatteryLevelTests */,
+				1BF4A31A1F8435D80084212E /* BatteryLevelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BF4A2FC1F8435D80084212E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BF4A3061F8435D80084212E /* Assets.xcassets in Resources */,
+				1BF4A3091F8435D80084212E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BF4A30E1F8435D80084212E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BF4A3191F8435D80084212E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BF4A2FA1F8435D80084212E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BF4A3041F8435D80084212E /* ViewController.swift in Sources */,
+				1BF4A3021F8435D80084212E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BF4A30C1F8435D80084212E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BF4A3151F8435D80084212E /* BatteryLevelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BF4A3171F8435D80084212E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BF4A3201F8435D80084212E /* BatteryLevelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1BF4A3121F8435D80084212E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BF4A2FD1F8435D80084212E /* BatteryLevel */;
+			targetProxy = 1BF4A3111F8435D80084212E /* PBXContainerItemProxy */;
+		};
+		1BF4A31D1F8435D80084212E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BF4A2FD1F8435D80084212E /* BatteryLevel */;
+			targetProxy = 1BF4A31C1F8435D80084212E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1BF4A3071F8435D80084212E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BF4A3081F8435D80084212E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1BF4A3221F8435D80084212E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1BF4A3231F8435D80084212E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		1BF4A3251F8435D80084212E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BatteryLevel/BatteryLevel.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TZ3XHXCR9A;
+				INFOPLIST_FILE = BatteryLevel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maximaxof.io.BatteryLevel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		1BF4A3261F8435D80084212E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BatteryLevel/BatteryLevel.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TZ3XHXCR9A;
+				INFOPLIST_FILE = BatteryLevel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maximaxof.io.BatteryLevel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		1BF4A3281F8435D80084212E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TZ3XHXCR9A;
+				INFOPLIST_FILE = BatteryLevelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maximaxof.io.BatteryLevelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BatteryLevel.app/Contents/MacOS/BatteryLevel";
+			};
+			name = Debug;
+		};
+		1BF4A3291F8435D80084212E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TZ3XHXCR9A;
+				INFOPLIST_FILE = BatteryLevelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maximaxof.io.BatteryLevelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BatteryLevel.app/Contents/MacOS/BatteryLevel";
+			};
+			name = Release;
+		};
+		1BF4A32B1F8435D80084212E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TZ3XHXCR9A;
+				INFOPLIST_FILE = BatteryLevelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maximaxof.io.BatteryLevelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = BatteryLevel;
+			};
+			name = Debug;
+		};
+		1BF4A32C1F8435D80084212E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TZ3XHXCR9A;
+				INFOPLIST_FILE = BatteryLevelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maximaxof.io.BatteryLevelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = BatteryLevel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BF4A2F91F8435D80084212E /* Build configuration list for PBXProject "BatteryLevel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BF4A3221F8435D80084212E /* Debug */,
+				1BF4A3231F8435D80084212E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BF4A3241F8435D80084212E /* Build configuration list for PBXNativeTarget "BatteryLevel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BF4A3251F8435D80084212E /* Debug */,
+				1BF4A3261F8435D80084212E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BF4A3271F8435D80084212E /* Build configuration list for PBXNativeTarget "BatteryLevelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BF4A3281F8435D80084212E /* Debug */,
+				1BF4A3291F8435D80084212E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BF4A32A1F8435D80084212E /* Build configuration list for PBXNativeTarget "BatteryLevelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BF4A32B1F8435D80084212E /* Debug */,
+				1BF4A32C1F8435D80084212E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1BF4A2F61F8435D80084212E /* Project object */;
+}
