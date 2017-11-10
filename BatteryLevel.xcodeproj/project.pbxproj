@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B6F1B2E1FA453F700EF3B71 /* PowerInfoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6F1B2D1FA453F700EF3B71 /* PowerInfoProvider.swift */; };
 		1BF4A3021F8435D80084212E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF4A3011F8435D80084212E /* AppDelegate.swift */; };
 		1BF4A3041F8435D80084212E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF4A3031F8435D80084212E /* ViewController.swift */; };
 		1BF4A3061F8435D80084212E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BF4A3051F8435D80084212E /* Assets.xcassets */; };
 		1BF4A3091F8435D80084212E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BF4A3071F8435D80084212E /* Main.storyboard */; };
 		1BF4A3151F8435D80084212E /* BatteryLevelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF4A3141F8435D80084212E /* BatteryLevelTests.swift */; };
 		1BF4A3201F8435D80084212E /* BatteryLevelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF4A31F1F8435D80084212E /* BatteryLevelUITests.swift */; };
+		1BF4A3301F8435E90084212E /* ToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF4A32D1F8435E90084212E /* ToolBar.swift */; };
+		1BF4A3311F8435E90084212E /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF4A32E1F8435E90084212E /* Line.swift */; };
+		1BF4A3321F8435E90084212E /* BatteryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF4A32F1F8435E90084212E /* BatteryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B6F1B2D1FA453F700EF3B71 /* PowerInfoProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerInfoProvider.swift; sourceTree = "<group>"; };
 		1BF4A2FE1F8435D80084212E /* BatteryLevel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BatteryLevel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BF4A3011F8435D80084212E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BF4A3031F8435D80084212E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +51,9 @@
 		1BF4A31B1F8435D80084212E /* BatteryLevelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BatteryLevelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BF4A31F1F8435D80084212E /* BatteryLevelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryLevelUITests.swift; sourceTree = "<group>"; };
 		1BF4A3211F8435D80084212E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BF4A32D1F8435E90084212E /* ToolBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolBar.swift; sourceTree = "<group>"; };
+		1BF4A32E1F8435E90084212E /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		1BF4A32F1F8435E90084212E /* BatteryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +81,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B6F1B2C1FA453D800EF3B71 /* Visuals */ = {
+			isa = PBXGroup;
+			children = (
+				1BF4A32F1F8435E90084212E /* BatteryView.swift */,
+				1BF4A32E1F8435E90084212E /* Line.swift */,
+			);
+			path = Visuals;
+			sourceTree = "<group>";
+		};
+		1BE0C79A1F845D5F0089D233 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1BF4A2F51F8435D80084212E = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +104,7 @@
 				1BF4A3131F8435D80084212E /* BatteryLevelTests */,
 				1BF4A31E1F8435D80084212E /* BatteryLevelUITests */,
 				1BF4A2FF1F8435D80084212E /* Products */,
+				1BE0C79A1F845D5F0089D233 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +127,9 @@
 				1BF4A3071F8435D80084212E /* Main.storyboard */,
 				1BF4A30A1F8435D80084212E /* Info.plist */,
 				1BF4A30B1F8435D80084212E /* BatteryLevel.entitlements */,
+				1BF4A32D1F8435E90084212E /* ToolBar.swift */,
+				1B6F1B2D1FA453F700EF3B71 /* PowerInfoProvider.swift */,
+				1B6F1B2C1FA453D800EF3B71 /* Visuals */,
 			);
 			path = BatteryLevel;
 			sourceTree = "<group>";
@@ -193,6 +221,17 @@
 					1BF4A2FD1F8435D80084212E = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.NetworkExtensions = {
+								enabled = 0;
+							};
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+							com.apple.VPNLite = {
+								enabled = 0;
+							};
+						};
 					};
 					1BF4A30F1F8435D80084212E = {
 						CreatedOnToolsVersion = 9.0;
@@ -257,6 +296,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BF4A3301F8435E90084212E /* ToolBar.swift in Sources */,
+				1BF4A3321F8435E90084212E /* BatteryView.swift in Sources */,
+				1BF4A3311F8435E90084212E /* Line.swift in Sources */,
+				1B6F1B2E1FA453F700EF3B71 /* PowerInfoProvider.swift in Sources */,
 				1BF4A3041F8435D80084212E /* ViewController.swift in Sources */,
 				1BF4A3021F8435D80084212E /* AppDelegate.swift in Sources */,
 			);
@@ -415,10 +458,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = BatteryLevel/BatteryLevel.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = TZ3XHXCR9A;
+				DEVELOPMENT_TEAM = ZE6FXYDW4P;
 				INFOPLIST_FILE = BatteryLevel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = maximaxof.io.BatteryLevel;
@@ -431,10 +473,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = BatteryLevel/BatteryLevel.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = TZ3XHXCR9A;
+				DEVELOPMENT_TEAM = ZE6FXYDW4P;
 				INFOPLIST_FILE = BatteryLevel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = maximaxof.io.BatteryLevel;
